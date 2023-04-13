@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia Sans Semi Condensed:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+body {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  background-color: azure;
+  font-size: x-large;
+}
+
+.container {
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
+
+.lh40 {
+  line-height: 40px;
+}
+
+.lh80 {
+  line-height: 80px;
+}
+
+.mono {
+  font-family: "JetBrains Mono", "Consolas", "Courier New", Courier, monospace;
+}
