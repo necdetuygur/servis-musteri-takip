@@ -43,7 +43,7 @@ const Reload = () => {
         <td class="center">
           <div class="mono">${Time(item.come)}</div>
           <div>
-            <button class="btn btn-primary" onclick="Update(${
+            <button class="btn btn-xs btn-primary" onclick="Update(${
               item.id
             }, 'come')">Başlat</button>
           </div>
@@ -51,7 +51,7 @@ const Reload = () => {
         <td class="center">
           <div class="mono">${Time(item.service)}</div>
           <div>
-            <button class="btn btn-primary" onclick="Update(${
+            <button class="btn btn-xs btn-primary" onclick="Update(${
               item.id
             }, 'service')">Başlat</button>
           </div>
@@ -59,13 +59,13 @@ const Reload = () => {
         <td class="center">
           <div class="mono">${Time(item.leave)}</div>
           <div>
-            <button class="btn btn-primary" onclick="Update(${
+            <button class="btn btn-xs btn-primary" onclick="Update(${
               item.id
             }, 'leave')">Başlat</button>
           </div>
         </td>
         <td class="lh80">
-          <button class="btn btn-danger" onclick="Remove(${
+          <button class="btn btn-xs btn-danger" onclick="Remove(${
             item.id
           })">Sil</button>
         </td>

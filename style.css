@@ -3,8 +3,11 @@
 
 body {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
-  background-color: azure;
-  font-size: x-large;
+  background-color: #eee;
+}
+
+* {
+  font-weight: 900;
 }
 
 .container {
@@ -31,6 +34,11 @@ body {
 
 .rank {
   padding-left: 3% !important;
-  font-size: 5rem;
-  font-weight: 900;
+  font-size: 3rem;
+}
+
+.btn-xs {
+  padding: 10px 5px !important;
+  font-size: 0.65rem !important;
+  line-height: 1.5 !important;
 }
