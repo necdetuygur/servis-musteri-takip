@@ -24,3 +24,13 @@ body {
 .mono {
   font-family: "JetBrains Mono", "Consolas", "Courier New", Courier, monospace;
 }
+
+.center {
+  text-align: center;
+}
+
+.rank {
+  padding-left: 3% !important;
+  font-size: 5rem;
+  font-weight: 900;
+}

@@ -39,8 +39,8 @@ const Reload = () => {
   window.LIST.forEach((item) => {
     document.querySelector("#list").innerHTML += `
       <tr>
-        <td class="lh80">${item.name}</td>
-        <td>
+        <td class="lh80 rank">${item.name}</td>
+        <td class="center">
           <div class="mono">${Time(item.come)}</div>
           <div>
             <button class="btn btn-primary" onclick="Update(${
@@ -48,7 +48,7 @@ const Reload = () => {
             }, 'come')">Başlat</button>
           </div>
         </td>
-        <td>
+        <td class="center">
           <div class="mono">${Time(item.service)}</div>
           <div>
             <button class="btn btn-primary" onclick="Update(${
@@ -56,7 +56,7 @@ const Reload = () => {
             }, 'service')">Başlat</button>
           </div>
         </td>
-        <td>
+        <td class="center">
           <div class="mono">${Time(item.leave)}</div>
           <div>
             <button class="btn btn-primary" onclick="Update(${
